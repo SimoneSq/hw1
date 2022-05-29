@@ -37,9 +37,9 @@ create table likes(
     primary key(user, comment)
 )Engine = InnoDB;
 
-INSERT INTO CONTENTS (title,img,p) VALUES('Sezione Articoli','https://sport.periodicodaily.com/wp-content/uploads/2021/11/ufc-news-768x512-1.png','Leggi le ultime notizie sul mondo della lotta...')
-INSERT INTO CONTENTS (title,img,p) VALUES('Sezione Merchandising','https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-03/everlast%20boxing%20gloves.jpg?itok=keHm65Sb',"Scopri l'attrezzatura usata dai campioni...")
-INSERT INTO CONTENTS (title,img,p) VALUES('Sezione Classifiche','https://s3.eu-central-1.amazonaws.com/gitalia.cdn/wp-content/uploads/2016/05/16132840/taglio-del-peso-ufc.jpg','Tutti i risultati dei combattimenti...')
+INSERT INTO CONTENTS (title,img,p) VALUES('Sezione Articoli','https://sport.periodicodaily.com/wp-content/uploads/2021/11/ufc-news-768x512-1.png','Leggi le ultime notizie sul mondo della lotta...');
+INSERT INTO CONTENTS (title,img,p) VALUES('Sezione Merchandising','https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-03/everlast%20boxing%20gloves.jpg?itok=keHm65Sb',"Scopri l'attrezzatura usata dai campioni...");
+INSERT INTO CONTENTS (title,img,p) VALUES('Sezione Classifiche','https://s3.eu-central-1.amazonaws.com/gitalia.cdn/wp-content/uploads/2016/05/16132840/taglio-del-peso-ufc.jpg','Tutti i risultati dei combattimenti...');
 //Trigger
 
 DELIMITER //
